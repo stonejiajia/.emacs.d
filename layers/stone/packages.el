@@ -30,7 +30,8 @@
 ;;; Code:
 
 (defconst stone-packages
-  '(youdao-dictionary))
+  '(youdao-dictionary
+    company))
 
 (defun stone/init-youdao-dictionary()
   (use-package youdao-dictionary
@@ -40,6 +41,8 @@
     )
   )
 
+(defun stone/post-init-company()
+  (setq company-minimum-prefix-length 1))
 
 ;;; packages.el ends here
 
