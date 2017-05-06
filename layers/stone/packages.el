@@ -36,7 +36,7 @@
 (defun stone/init-youdao-dictionary()
   (use-package youdao-dictionary
     :defer t
-    :init 
+    :init
     (spacemacs/set-leader-keys "oy" 'youdao-dictionary-search-at-point+)
     )
   )
