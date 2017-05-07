@@ -16,7 +16,7 @@ values."
    ;; and `nil'. `unused' will lazy install only unused layers (i.e. layers
    ;; not listed in variable `dotspacemacs-configuration-layers'), `all' will
    ;; lazy install any layer that support lazy installation even the lay/.spacem(defun occur-dwim ()
-   ;; listed in `dotspacemacs-configuration-layers'. `nil' disable the lazy
+   ;; listed in `dotspacemacs-configuration-laException: variable runtime is not boundyers'. `nil' disable the lazy
    ;; installation feature and you have to explicitly list a layer in the
    ;; variable `dotspacemacs-configuration-layers' to install it.
    ;; (default 'unused)
@@ -30,6 +30,7 @@ values."
    dotspacemacs-configuration-layers
    '(
      ;;javascript
+     
      markdown
      html
      python

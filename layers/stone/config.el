@@ -20,6 +20,8 @@
 (setq geiser-chez-binary "/usr/local/Cellar/chez-scheme/HEAD-a2a6637/bin/chez")
 
 (setq geiser-active-implementations '(chez))
+;(setq geiser-racket-binary "/Applications/Racket v6.9/bin/racket")
+
 
 
 ;;bug fix :Warning (python)
