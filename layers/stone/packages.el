@@ -46,4 +46,6 @@
 
 ;;; packages.el ends here
 
-
+;; Set path racer binary
+(setq racer-cmd "~/.cargo/bin/racer")
+(setq racer-rust-src-path "~/.multirust/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/")
